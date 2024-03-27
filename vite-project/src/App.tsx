@@ -1,6 +1,7 @@
 import { useState } from "react";
 import Button from "@mui/material/Button";
 import evcat from "./images/ev-cat.png";
+import partyCat from "./images/meow_party.gif";
 import "./App.css";
 
 function App() {
@@ -11,8 +12,12 @@ function App() {
   return (
     <div>
       <header>
-        <h1>Yellow</h1>
-        <Button onClick={handleButton}>Beep beep beep</Button>
+        <h1>
+          <img src={partyCat} />
+          Oh Hoi!
+          <img src={partyCat} />
+        </h1>
+        <Button onClick={handleButton}>Enter</Button>
       </header>
       {open && <img src={evcat} />}
     </div>
