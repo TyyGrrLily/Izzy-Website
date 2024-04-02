@@ -4,10 +4,10 @@ import styled from "styled-components";
 
 export const Nav = styled.nav`
   background: #bf7600;
-  flex: grow;
+  display: flex;
   height: 85px;
-  display: start;
-  justify-content: space-between;
+  align-items: center;
+  justify-content: center;
   padding: 0.2rem calc((100vw - 1000px) / 2);
   z-index: 12;
 `;
@@ -21,7 +21,7 @@ export const NavLink = styled(Link)`
   height: 100%;
   cursor: pointer;
   &.active {
-    color: #4d4dff;
+    color: #77001e;
   }
 `;
 
