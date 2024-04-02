@@ -5,11 +5,12 @@ export const Navbar = () => {
     <>
       <Nav>
         <NavMenu>
-          <NavLink to="/home">Home</NavLink>
+          <NavLink to="/main">Main</NavLink>
           <NavLink to="/about">About</NavLink>
+          <NavLink to="/experience">Job Experience</NavLink>
+          <NavLink to="/projects">Projects</NavLink>
           <NavLink to="/contact">Contact Us</NavLink>
           <NavLink to="/blogs">Blogs</NavLink>
-          <NavLink to="/sign-up">Sign Up</NavLink>
         </NavMenu>
       </Nav>
     </>

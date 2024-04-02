@@ -1,6 +1,6 @@
 import { BasePage } from "./BasePage";
 import evcat from "../images/ev-cat.png";
-export const Home = () => {
+export const Main = () => {
   return (
     <BasePage>
       <>
