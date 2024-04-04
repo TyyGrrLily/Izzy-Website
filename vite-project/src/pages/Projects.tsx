@@ -1,5 +1,4 @@
 import { BasePage } from "./BasePage";
-import "Pro";
 
 export const Projects = () => {
   return (
