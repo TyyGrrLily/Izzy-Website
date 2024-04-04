@@ -1,9 +1,12 @@
+import izzy from "../images/photo_2024-04-03 17.29.02.png";
 import { BasePage } from "./BasePage";
+import "./About.css";
 
 export const About = () => {
   return (
     <BasePage>
       <div>
+        <img className="image" src={izzy} />
         <h1>Izabel Hardy</h1>
         <h2>Software Engineer Extraordinaire</h2>
         <>
@@ -16,6 +19,8 @@ export const About = () => {
           diverse mediums like ceramics. My primary goal is growth, both
           personally and professionally.
         </>
+        <br />
+        <>Yes I did make my hat!</>
       </div>
     </BasePage>
   );
