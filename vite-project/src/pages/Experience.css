@@ -1,0 +1,12 @@
+.toolList{
+    display: flex; 
+    flex-direction: column; 
+    justify-content: start; 
+    padding: 0 5rem;
+    text-align: left;}
+.toolListItem{
+    display: flex;
+}
+.toolListItemTitle{
+    padding-right: 4px;
+}

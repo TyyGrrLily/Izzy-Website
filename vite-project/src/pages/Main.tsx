@@ -5,7 +5,10 @@ export const Main = () => {
     <BasePage>
       <>
         <h1>Welcome to my page!!</h1>
-        <img src={evcat} />
+        <div>
+          <img src={evcat} width={"250"} />{" "}
+          <div>Welcome, I see you have found this website.</div>
+        </div>
       </>
     </BasePage>
   );
