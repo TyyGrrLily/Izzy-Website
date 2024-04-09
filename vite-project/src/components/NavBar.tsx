@@ -10,7 +10,6 @@ export const Navbar = () => {
           <NavLink to="/experience">Job Experience</NavLink>
           <NavLink to="/projects">Projects</NavLink>
           <NavLink to="/contact">Contact Us</NavLink>
-          <NavLink to="/blog">Blogs</NavLink>
         </NavMenu>
       </Nav>
     </>
